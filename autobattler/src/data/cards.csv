@@ -1,28 +1,28 @@
 @count,@template,power,name,text,toughness,tier
 1,templates/card.html,0,Card #1,"Instead of attacking, roll a die. Deal 10 damage on a 5 or 6, and 0 damage otherwise",3,1
-2,templates/card.html,1,Card #2,,1d6,1
-3,templates/card.html,1d6-2,Card #3,"Before attacking, roll a die. On a 6, take no damage this turn",1,1
-4,templates/card.html,1d6-2,Card #4,"If the power die of this card changes, add 1 to toughness",1,1
-5,templates/card.html,1d6-2,Card #5,,1d6-2,1
-6,templates/card.html,1d6-3,Card #6,,3,1
-7,templates/card.html,1d6,Card #7,"Immediately after initial rolls, double this card's power and toughness if they match. Halve them each otherwise",1d6,1
-8,templates/card.html,1d6/2,Card #8,,1d6-3,1
-9,templates/card.html,1d6/2,Card #9,,1d6/2,1
-10,templates/card.html,0,Card #10,"Before attacking, roll a die. Kill any opponent's cards that have power matching that number",1,2
-11,templates/card.html,1,Card #11,"After initial die rolls, add 1d6/2 to toughness of creature ahead",1,2
-12,templates/card.html,1,Card #12,"On death, card behind gets 1d6/2 additional power",1,2
-13,templates/card.html,1,Card #13,"Before creature ahead attacks, reroll its power die if it is <= 3",1d6,2
-14,templates/card.html,1d6-3,Card #14,"When an ally is killed, add 1d6-2 to this card's toughness",1,2
-15,templates/card.html,1d6-3,Card #15,Cards killed by this do not activate 'on death' mechanics,1d6-3,2
-16,templates/card.html,1d6,Card #16,"Before the card ahead attacks, reroll its power",1,2
-17,templates/card.html,1d6,Card #17,"Before card ahead attacks, reroll its toughness",1d6,2
-18,templates/card.html,1d6,Card #18,"Before this creature attacks, reroll its power die",1d6,2
-19,templates/card.html,1d6/2,Card #19,"On death, add 1 power to your other cards",1d6/2,2
-20,templates/card.html,1d6/2,Card #20,"On death, add 1 toughness to your other creatures",1d6/2,2
-21,templates/card.html,2,Card #21,"After initial die rolls, reroll any 1s on any of your creatures as a 1d6 roll",2,2
-22,templates/card.html,1d6-2,Card #22,"After receiving damage, add 1d6-2 to power",1d6,3
-23,templates/card.html,1d6,Card #23,"After initial die rolls, if your power or toughness are even, roll another die and add to it. Repeat until both are odd",1d6,3
-24,templates/card.html,1d6,Card #24,"Before attacking, roll a die. On an even roll, take no damage this round",1d6,3
-25,templates/card.html,1d6+2,Card #25,"On death, spawn another 1d6/1d6 with no type or text on the spot where this creature died",1d6,3
-26,templates/card.html,2d6,Card #26,"Before attacking, deal 1 damage to each of your own cards, including this",2d6,3
-27,templates/card.html,3d6,Card #27,"After initial die rolls, remove all dice on this card which match",3d6,3
+1,templates/card.html,1,Card #2,,1d6,1
+1,templates/card.html,1d6-2,Card #3,"Before attacking, roll a die. On a 6, take no damage this turn",1,1
+1,templates/card.html,1d6-2,Card #4,"If the power die of this card changes, add 1 to toughness",1,1
+1,templates/card.html,1d6-2,Card #5,,1d6-2,1
+1,templates/card.html,1d6-3,Card #6,,3,1
+1,templates/card.html,1d6,Card #7,"Immediately after initial rolls, double this card's power and toughness if they match. Halve them each otherwise",1d6,1
+1,templates/card.html,1d6/2,Card #8,,1d6-3,1
+1,templates/card.html,1d6/2,Card #9,,1d6/2,1
+1,templates/card.html,0,Card #10,"Before attacking, roll a die. Kill any opponent's cards that have power matching that number",1,2
+1,templates/card.html,1,Card #11,"After initial die rolls, add 1d6/2 to toughness of creature ahead",1,2
+1,templates/card.html,1,Card #12,"On death, card behind gets 1d6/2 additional power",1,2
+1,templates/card.html,1,Card #13,"Before creature ahead attacks, reroll its power die if it is <= 3",1d6,2
+1,templates/card.html,1d6-3,Card #14,"When an ally is killed, add 1d6-2 to this card's toughness",1,2
+1,templates/card.html,1d6-3,Card #15,Cards killed by this do not activate 'on death' mechanics,1d6-3,2
+1,templates/card.html,1d6,Card #16,"Before the card ahead attacks, reroll its power",1,2
+1,templates/card.html,1d6,Card #17,"Before card ahead attacks, reroll its toughness",1d6,2
+1,templates/card.html,1d6,Card #18,"Before this creature attacks, reroll its power die",1d6,2
+1,templates/card.html,1d6/2,Card #19,"On death, add 1 power to your other cards",1d6/2,2
+1,templates/card.html,1d6/2,Card #20,"On death, add 1 toughness to your other creatures",1d6/2,2
+1,templates/card.html,2,Card #21,"After initial die rolls, reroll any 1s on any of your creatures as a 1d6 roll",2,2
+1,templates/card.html,1d6-2,Card #22,"After receiving damage, add 1d6-2 to power",1d6,3
+1,templates/card.html,1d6,Card #23,"After initial die rolls, if your power or toughness are even, roll another die and add to it. Repeat until both are odd",1d6,3
+1,templates/card.html,1d6,Card #24,"Before attacking, roll a die. On an even roll, take no damage this round",1d6,3
+1,templates/card.html,1d6+2,Card #25,"On death, spawn another 1d6/1d6 with no type or text on the spot where this creature died",1d6,3
+1,templates/card.html,2d6,Card #26,"Before attacking, deal 1 damage to each of your own cards, including this",2d6,3
+1,templates/card.html,3d6,Card #27,"After initial die rolls, remove all dice on this card which match",3d6,3
